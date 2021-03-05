@@ -110,7 +110,7 @@ div p{
 .container{
     padding:0 0 0 10px;
     display:grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 20px;
     border-radius: 4px;
     
