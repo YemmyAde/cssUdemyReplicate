@@ -1,3 +1,4 @@
+
 body{
 
     font-family: 'Open Sans', serif;
@@ -40,7 +41,7 @@ a{
     text-decoration: none;
     color:gray;
     padding-left: 20px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .containerHead h1, .containerHead h2 {
     margin: 20px 10px;
@@ -57,6 +58,7 @@ input{
     padding: 15px 30px;
     height: 50px;
     background-color: whitesmoke;
+    outline: none;
 }
 .searchPosition{
     position:relative;
@@ -103,7 +105,7 @@ ul li a{
     width:auto;
 }
 div p{
-    font-size: 20px;
+    font-size: 14px;
     letter-spacing: px;
 }
 
@@ -122,7 +124,6 @@ div p{
 .bestSeller{
     display:relative;
     padding: 2px;
-    background-color: ;
     position: top center;
     font-size: 12px;
 }
@@ -141,10 +142,10 @@ h3{
 .tooltip .tooltiptext{
     visibility: hidden;
     position:absolute;
-    bottom:5px;
-    left:300px;
+    top:5px;
+    left:250px;
     z-index:1;
-    width:320px;
+    width:250px;
     border-radius: 4px;
     padding: 20px 40px;
 
@@ -153,10 +154,10 @@ h3{
 .tooltip1 .tooltiptext{
     visibility: hidden;
     position:absolute;
-    bottom:5px;
-    right:300px;
+    top:5px;
+    right:250px;
     z-index:1;
-    width:320px;
+    width:250px;
     border-radius: 4px;
     padding: 20px 40px;
 
@@ -177,7 +178,7 @@ h3{
 
 
 p.fontSize {
-    font-size: 18px;
+    font-size: 14px;
 }
 
  .cart{
@@ -187,6 +188,7 @@ p.fontSize {
  height:50px;
  color:white;
  border-radius: 4px;
- font-size: 18px;
+ font-size: 16px;
  text-align:center;
+ border: none;
 }
